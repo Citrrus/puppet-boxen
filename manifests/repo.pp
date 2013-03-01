@@ -1,5 +1,5 @@
 class boxen::repo {
-  $remote_add = "git remote add origin https://github.com/${boxen::config::reponame}"
+  $remote_add = "git remote add origin https://citrrus@bitbucket.org/${boxen::config::reponame}"
   $git_fetch = "git fetch -q origin"
   $git_reset = "git reset --hard origin/master"
 
